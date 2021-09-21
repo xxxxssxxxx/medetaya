@@ -151,9 +151,11 @@ iframe {
     text-align: center;
 }
 .news-contents {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+    margin-right: 90px;
+
 }
 
 /* 記事部分 */
@@ -365,6 +367,7 @@ footer p {
     /* NEWS */
     .news-contents {
         flex-direction: column;
+        margin-right: 0px;
     }
     #news .page-title {
         margin-top: 30px;
