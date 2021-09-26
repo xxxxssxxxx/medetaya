@@ -229,8 +229,9 @@ aside p {
 /* MENU
 ------------------------------- */
 #menu {
-    background-image: url(../images/menu-bg.jpg);
-    min-height: 100vh;
+    /* background-image: url(../images/menu-bg.jpg); */
+    /* min-height: 100vh; */
+    background-image: url(../images/news-bg.jpg);
 }
 .menu-content {
     max-width: 560px;
@@ -251,7 +252,12 @@ aside p {
   margin-top: 6%;
   margin-bottom: 50px;
 }
-
+.Video{
+    text-align: center;
+}
+.Videosize{
+    width: 1000px;
+}
 /* CONTACT
 ------------------------------- */
 #contact {
@@ -433,5 +439,11 @@ footer p {
     }
     .sns-box {
         margin-bottom: 30px;
+    }
+    .Video{
+        text-align: center;
+    }
+    .Videosize{
+        width: auto;
     }
 }
