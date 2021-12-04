@@ -6,6 +6,7 @@
         <meta name="description" content="餅つき獅子舞">
         <link rel="icon" type="image/png" href="images/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
@@ -13,25 +14,96 @@
     </head>
 
     <body>
-        <div id="home" class="big-bg">
+        <div id="news" class="big-bg">
             <header class="page-header wrapper">
                 <h1><a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo"></a></h1>
                 <nav>
                     <ul class="main-nav">
-                        <li><a href="news.html">Overview</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="news.html"><spam style="color: black;">Overview</spam></a></li>
+                        <li><a href="menu.html"><spam style="color: black;">Menu</spam></a></li>
+                        <li><a href="contact.html"><spam style="color: black;">Contact</spam></a></li>
                     </ul>
                 </nav>
             </header>
-
-            <div class="home-content wrapper">
-                <h2 class="outline">祝いの心杵に込め</h2><br/>
-                <p class="outline"style="margin-bottom: 0px;">～粋でいなせな祝い餅～</p><br/>
-                <p class="outline">めでたや大阪</p><br/>
-                <a class="button" href="menu.html">さあ、参りましょう！！</a>
-            </div><!-- /.home-content -->
-        </div><!-- /#home -->
-
+            <div class="wrapper">
+                <h2 class="page-title">Overview</h2>
+            </div><!-- /.wrapper -->
+        </div><!-- /#餅つき -->
+        <div class="news-contents wrapper">
+            <div class="Video"><video src="images/mochi.mp4" loop autoplay muted playsinline class="Videosize"></div>
+            <article>
+                <header class="post-info">
+                    <!-- style="font-family: Osaka-Mono;" -->
+                    <h2 class="post-title">餅つきパフォーマンス</h2>
+                    <p class="post-date" style="background: red;">餅</p>
+                    <p class="post-cat">めでたや大阪 祝い餅つきパフォーマンスの紹介</p>
+                </header>
+                <img src="images/moti.jpg" alt="">
+                <p>
+                    昔、お祝い事と言えば、火消し衆が印半纏にキリリとねじり鉢巻きを締めお餅をついていた事が、歳時記のひとつとして伝えられています。昔の情緒を今に伝えながら威勢良く祝いのお餅をつき上げ、お二人の門出を祝います。祝いの心杵に込め、粋で、いなせに宴を彩るめでたやの祝い芸です。
+                </p>
+                <p>
+                ※会場の皆様に付いて頂いたお餅は、餡子・黄粉の２色にし提供いたします。<br/>　また、プチギフトとしても提供可能となっております。  
+                </p>
+            </article>
+        </div>
+        <br/>
+        <br/>
+        <!-- /.獅子 -->
+        <div class="news-contents wrapper">
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">獅子先導</h2>
+                    <p class="post-date" style="background: green;">獅</p>
+                    <p class="post-cat">めでたや大阪 獅子舞パフォーマンスの紹介</p>
+                </header>
+                <img src="images/shishi.jpg" alt="">
+                <p>
+                    獅子は厄を払い前途を清めると伝えられています。
+                    嚙まれると無病息災、健康に過ごせるそうです。
+                    頭をかまれると頭が良くなるとも言い伝えが。。
+                    ご新郎ご新婦の門出を祝い、前途を清めながら先導します！
+                </p>
+            </article>
+        </div>
+        <br/>
+        <br/>
+        <!-- /.花嫁 -->
+        <div class="news-contents wrapper">
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">花嫁道中</h2>
+                    <p class="post-date" style="background: pink;">花</p>
+                    <p class="post-cat">めでたや大阪 花嫁道中パフォーマンスの紹介</p>
+                </header>
+                <img src="images/hanayome.jpg" alt="">
+                <p>
+                    古来、花嫁が実家から新郎家へ行列を組んで嫁入りをしていました。
+                    この花嫁道中で提灯持ちをしていたのが俥夫です。
+                    本日は俥夫が高砂まで、お二人の人生が共に固く歩んで行ける様に
+                    しっかりと足元を照らしながら先導致します。
+                </p>
+            </article>
+            <aside>
+                <h3 class="sub-title">会場について</h3>
+                <p>
+                    ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+                    ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+                </p>
+                <br/>
+                <br/>
+                <h3 class="sub-title">リンク</h3>
+                <ul class="sub-menu">
+                    <li><a href="news.html">Overview</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </aside>
+        </div><!-- /.news-contents -->
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2021 OsakaMedetaya</small></p>
+            </div>
+        </footer>
     </body>
 </html>
